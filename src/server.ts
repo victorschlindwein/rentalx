@@ -5,15 +5,6 @@ const app = express();
 
 app.use(express.json())
 
-app.use(categoriesRoutes);
-
-app.get("/", (request, response) => {
-  return response.json({ message: "working on mac" })
-});
-
-app.post("/courses", (request, response) => {
-  const { name } = request.body;
-  return response.json(name);
-})
+app.use("/categories", categoriesRoutes);
 
 app.listen(3333, () => console.log("server is on"));
