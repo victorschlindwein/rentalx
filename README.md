@@ -6,7 +6,7 @@ Deve ser possível cadastrar um novo carro.
 **Requisitos Não Funcionais**
 Não deve ser possível cadastrar um carro com uma placa existente.
 O carro deve ser cadastrado por padrão como disponível.
-\*O usuário responsável pelo cadastro deve ser um administrador.
+O usuário responsável pelo cadastro deve ser um administrador.
 
 # Listagem de carros
 
